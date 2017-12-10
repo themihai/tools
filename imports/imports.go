@@ -67,7 +67,6 @@ func Process(filename string, src []byte, opt *Options) ([]byte, error) {
 				return nil, err
 			}
 		}
-
 	}
 
 	sortImports(fileSet, file)
